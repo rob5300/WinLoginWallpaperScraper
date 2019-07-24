@@ -1,6 +1,11 @@
 # Windows Login Wallpaper Scraper
 This simple python script illustrates exporting windows login wallpaper images.
-It enforces certain requirements to filter out other content that exists in the same directory.
+It enforces certain requirements to filter out other content that exists in the same directory. Images are sorted for desktop and mobile devices.
+
+**Requires Pillow (Python Imaging Library):** *(Used to get image dimensions)*
+```
+pip install Pillow
+```
 ## Variables to edit
 ```
 # Min size in bytes
